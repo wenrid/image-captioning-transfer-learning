@@ -56,37 +56,37 @@ Les deux modèles utilisent une architecture **Encoder-Decoder** avec :
 
 | Task A (ResNet-50) | Task B (Custom CNN) |
 |---|---|
-| ![Training Curves Task A](results/training_curves/taskA.png) | ![Training Curves Task B](results/training_curves/taskB.png) |
+| ![Training Curves Task A](resultats/training_curves/taskA.png) | ![Training Curves Task B](resultats/training_curves/taskB.png) |
 
 ### Attention Heatmaps
 
 **Task A — Attention focalisée et précise :**
 
-![Attention Task A - Example 1](results/attention_heatmaps/taskA/example1.png)
-![Attention Task A - Example 2](results/attention_heatmaps/taskA/example2.png)
-![Attention Task A - Example 3](results/attention_heatmaps/taskA/example3.png)
+![Attention Task A - Example 1](resultats/attention_heatmaps/taskA/example1.png)
+![Attention Task A - Example 2](resultats/attention_heatmaps/taskA/example2.png)
+![Attention Task A - Example 3](resultats/attention_heatmaps/taskA/example3.png)
 
 **Task B — Attention diffuse et moins discriminative :**
 
-![Attention Task B - Example 1](results/attention_heatmaps/taskB/example1.png)
-![Attention Task B - Example 2](results/attention_heatmaps/taskB/example2.png)
-![Attention Task B - Example 3](results/attention_heatmaps/taskB/example3.png)
+![Attention Task B - Example 1](resultats/attention_heatmaps/taskB/example1.png)
+![Attention Task B - Example 2](resultats/attention_heatmaps/taskB/example2.png)
+![Attention Task B - Example 3](resultats/attention_heatmaps/taskB/example3.png)
 
 ### Grad-CAM (Custom CNN — Task B, couche conv5)
 
-![Grad-CAM Example 1](results/gradcam/example1.png)
-![Grad-CAM Example 2](results/gradcam/example2.png)
-![Grad-CAM Example 3](results/gradcam/example3.png)
+![Grad-CAM Example 1](resultats/gradcam/example1.png)
+![Grad-CAM Example 2](resultats/gradcam/example2.png)
+![Grad-CAM Example 3](resultats/gradcam/example3.png)
 
 ### Matrices de Confusion (word-level, Top 20 mots)
 
 | Task A (ResNet-50) | Task B (Custom CNN) |
 |---|---|
-| ![Confusion Matrix Task A](results/confusion_matrices/taskA.png) | ![Confusion Matrix Task B](results/confusion_matrices/taskB.png) |
+| ![Confusion Matrix Task A](resultats/confusion_matrices/taskA.png) | ![Confusion Matrix Task B](resultats/confusion_matrices/taskB.png) |
 
 ### Galerie de Résultats
 
-![Result Gallery](results/gallery/gallery.png)
+![Result Gallery](resultats/gallery/gallery.png)
 
 ---
 
@@ -102,7 +102,7 @@ image-captioning-transfer-learning/
 ├── notebooks/
 │   └── TP2_ImageCaptioning_Groupe3.ipynb   # Notebook complet (Tasks A→E)
 │
-└── results/
+└── resultats/
     ├── training_curves/
     │   ├── taskA.png
     │   └── taskB.png
