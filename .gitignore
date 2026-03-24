@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Données (trop lourdes pour GitHub)
+data/
+*.ppm
+*.jpg
+*.png
+*.pt
+*.pth
+*.pkl
+
+# Environnements
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Colab / Drive
+*.gdrive
