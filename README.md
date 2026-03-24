@@ -1,8 +1,8 @@
 # 🖼️ Image Captioning — Transfer Learning vs. Training from Scratch
 
-> **TP2 — Module : Apprentissage | IFI-VNU (Institut Francophone International)**  
-> Groupe 3 : Wenchel RIDORE & Frédéric HABONIMANA  
-> Encadrant : Dr. CISSOKO Mamadou Ben Hamidou
+> **Module : Apprentissage | IFI-VNU (Institut Francophone International)**  
+> Auteurs : Wenchel RIDORE & Frédéric HABONIMANA  
+> Prof. : Dr. CISSOKO Mamadou Ben Hamidou
 
 ---
 
