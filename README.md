@@ -56,37 +56,37 @@ Les deux modèles utilisent une architecture **Encoder-Decoder** avec :
 
 | Task A (ResNet-50) | Task B (Custom CNN) |
 |---|---|
-| ![Training Curves Task A](resultats/training_curves/taskA.png) | ![Training Curves Task B](resultats/training_curves/taskB.png) |
+| ![Training Curves Task A](resultats/training_curves/training_curves_taskA.png) | ![Training Curves Task B](resultats/training_curves/training_curves_taskB.png) |
 
 ### Attention Heatmaps
 
 **Task A — Attention focalisée et précise :**
 
-![Attention Task A - Example 1](resultats/attention_heatmaps/taskA/example1.png)
-![Attention Task A - Example 2](resultats/attention_heatmaps/taskA/example2.png)
-![Attention Task A - Example 3](resultats/attention_heatmaps/taskA/example3.png)
+![Attention Task A - Example 1](resultats/attention_heatmaps/taskA/attention_taskA_example1.png)
+![Attention Task A - Example 2](resultats/attention_heatmaps/taskA/attention_taskA_example2.png)
+![Attention Task A - Example 3](resultats/attention_heatmaps/taskA/attention_taskA_example3.png)
 
 **Task B — Attention diffuse et moins discriminative :**
 
-![Attention Task B - Example 1](resultats/attention_heatmaps/taskB/example1.png)
-![Attention Task B - Example 2](resultats/attention_heatmaps/taskB/example2.png)
-![Attention Task B - Example 3](resultats/attention_heatmaps/taskB/example3.png)
+![Attention Task B - Example 1](resultats/attention_heatmaps/taskB/attention_taskB_example1.png)
+![Attention Task B - Example 2](resultats/attention_heatmaps/taskB/attention_taskB_example2.png)
+![Attention Task B - Example 3](resultats/attention_heatmaps/taskB/attention_taskB_example3.png)
 
 ### Grad-CAM (Custom CNN — Task B, couche conv5)
 
-![Grad-CAM Example 1](resultats/gradcam/example1.png)
-![Grad-CAM Example 2](resultats/gradcam/example2.png)
-![Grad-CAM Example 3](resultats/gradcam/example3.png)
+![Grad-CAM Example 1](resultats/gradcam/gradcam_example1.png)
+![Grad-CAM Example 2](resultats/gradcam/gradcam_example2.png)
+![Grad-CAM Example 3](resultats/gradcam/gradcam_example3.png)
 
 ### Matrices de Confusion (word-level, Top 20 mots)
 
 | Task A (ResNet-50) | Task B (Custom CNN) |
 |---|---|
-| ![Confusion Matrix Task A](resultats/confusion_matrices/taskA.png) | ![Confusion Matrix Task B](resultats/confusion_matrices/taskB.png) |
+| ![Confusion Matrix Task A](resultats/confusion_matrices/confusion_matrix_taskA.png) | ![Confusion Matrix Task B](resultats/confusion_matrices/confusion_matrix_taskB.png) |
 
 ### Galerie de Résultats
 
-![Result Gallery](resultats/gallery/gallery.png)
+![Result Gallery](resultats/gallery/result_gallery.png)
 
 ---
 
@@ -100,21 +100,21 @@ image-captioning-transfer-learning/
 ├── .gitignore
 │
 ├── notebooks/
-│   └── TP2_ImageCaptioning_Groupe3.ipynb   # Notebook complet (Tasks A→E)
+│   └── TP2_ImageCaptioning_Groupe3.ipynb
 │
 └── resultats/
     ├── training_curves/
-    │   ├── taskA.png
-    │   └── taskB.png
+    │   ├── training_curves_taskA.png
+    │   └── training_curves_taskB.png
     ├── attention_heatmaps/
-    │   ├── taskA/   (3 exemples)
-    │   └── taskB/   (3 exemples)
-    ├── gradcam/     (3 exemples)
+    │   ├── taskA/ (3 exemples)
+    │   └── taskB/ (3 exemples)
+    ├── gradcam/ (3 exemples)
     ├── confusion_matrices/
-    │   ├── taskA.png
-    │   └── taskB.png
+    │   ├── confusion_matrix_taskA.png
+    │   └── confusion_matrix_taskB.png
     └── gallery/
-        └── gallery.png
+        └── result_gallery.png
 ```
 
 > ⚠️ **Note** : Les poids des modèles entraînés (`.pt`) ne sont pas inclus dans ce dépôt en raison de leur taille. Le notebook est configuré pour Google Colab avec sauvegarde sur Google Drive.
@@ -124,7 +124,7 @@ image-captioning-transfer-learning/
 ## ⚙️ Installation & Utilisation
 
 ```bash
-git clone https://github.com/TON_USERNAME/image-captioning-transfer-learning.git
+git clone https://github.com/wenrid/image-captioning-transfer-learning.git
 cd image-captioning-transfer-learning
 pip install -r requirements.txt
 ```
